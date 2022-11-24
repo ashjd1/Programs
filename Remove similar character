@@ -1,0 +1,12 @@
+a="ashutosh"
+b="akshata "
+li=[]
+for i in a:
+    if i in b:
+        continue
+    li.append(i)
+for i in b:
+    if i in a:
+        continue
+    li.append(i)
+print("".join(li))
