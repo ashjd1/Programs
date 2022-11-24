@@ -1,0 +1,7 @@
+a=input()
+for i in a:
+    try:
+        j=int(i)
+        print(j)
+    except ValueError:
+        continue
