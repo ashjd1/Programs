@@ -1,0 +1,12 @@
+a="ashutosh akshata jadhav"
+
+li=[]
+c=0
+for i in a:
+    if i==" ":
+        c=c+1
+        continue
+    else:
+        li.append(i)
+        
+print(" "*c ,end="".join(li))
