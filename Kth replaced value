@@ -1,0 +1,10 @@
+a="ashutosh"
+z=int(input())
+li=[]
+b=list(set(a))
+for i in b:
+    li.append(a.count(i))
+    if z==a.count(i):
+        print(i,end=" ")
+    
+print(sorted(li))
