@@ -1,10 +1,8 @@
-rows = 5
-k = 0
-for i in range(1, rows+1):
-    for space in range(1, (rows-i)):
-        print(end="  ")
-    while k!=(2*i-1):
-        print("* ", end="")
-        k += 1
-    k = 0
+a=5
+for i in range(a):
+    for j in range(a-i-1):
+        print(" ",end="")
+    for i in range(i+1):
+        print("*",end=" ")
     print()
+    
